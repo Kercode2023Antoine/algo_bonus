@@ -9,7 +9,8 @@
 function displayArray (obj) {
     let out = 'Contenu du tableau :\n\n';
     for (let i in obj) {
-        out += "index : " + i + " -> valeur : " + obj[i] + "\n";
+        
+       out += "votre essai N°" + eval(parseInt(i)+1) +" :" + obj[i] + "\n";
     }
 
     alert(out);
